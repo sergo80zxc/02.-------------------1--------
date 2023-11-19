@@ -1,0 +1,109 @@
+* {                         /*все элементы*/
+    box-sizing: border-box;   /*Размер = контент + padding + border*/
+  }
+
+
+
+body {
+    background-color: #e4d6c2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1420px;
+    margin: 0 auto;
+    border: solid #582c08 1px;            /*ВРЕМЕННО*/
+}
+
+
+
+/*HEADER -------------------------------------------------------*/
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(..//img/шапка_03.jpg);
+    height: 100px;
+}
+.logo {
+    font-size: 48px;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.nav {
+    display: flex;
+    column-gap: 30px;
+    margin-right: 110px;
+}
+/*END HEADER ---------------------------------------------------*/
+
+
+/*MAIN ---------------------------------------------------------*/
+.container_main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.main_top {
+    background-image: url(..//img/Верхний-блок_10.jpg);
+    width: 431px;
+    height: 401px;
+}
+.img_top {
+    margin: 10px;
+}
+.text_top {
+    font-size: 24px;
+    color: #5353d4;
+    text-align: center;
+}
+
+
+.container_main_bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+
+}
+.main_bottom {
+    background-image: url(..//img/Нижний-блок_07.jpg);
+    width: 681px;
+    height: 681px;
+}
+.img_bottom {
+    margin: 10px;
+}
+.text_bottom {
+    font-size: 24px;
+    color: #5353d4;
+    text-align: center;
+}
+/*END MAIN -----------------------------------------------------*/
+
+
+/*FOOTER  ------------------------------------------------------*/
+.container_footer {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(..//img/Пподвал_14.jpg);
+    width: 1420px;
+    height: 100px;
+    margin-top: 10px;
+    color: #5353d4;   
+    font-size: 24px;
+}
+
+.date {
+    margin-left: 50px;
+}
+.mail {
+    margin-right: 50px;
+}
+
+
+/*END FOOTER  --------------------------------------------------*/
+
